@@ -1,3 +1,16 @@
 /* Aca va ir el codigo de css que yo necesito */
 
 /* Esto es un comentario en css */
+
+/* 
+selector {
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedadN: valorN;
+}
+*/
+
+body {
+    background-color: orange;
+    color: white;
+}
