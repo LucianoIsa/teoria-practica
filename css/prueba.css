@@ -1,0 +1,84 @@
+/* Aca va ir el codigo de css que yo necesito */
+
+/* Esto es un comentario en css */
+
+/* 
+selector {
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedadN: valorN;
+}
+*/
+
+/* Pilares de CSS
+        Herencia
+        Cascada
+        Especificidad
+            Dependiendo del tipo de selector que estemos usando tienen un puntaje:
+            Selector universal o Elemento -> 1
+            Selector de clase -> 10
+            Selector de ID -> 100
+            Si aplicamos estilos con el atributo "style" en el html -> 1000 (No es adecuado aplicar estilos o propiedades de esta forma, porque ademas no lo vemos en el curo)
+*/
+
+/* 
+    Selector universal (*)
+    Nos va a servir para resetear o pisar algunos estilos (propiedades) que aplican los navegadores por defecto 
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: orange;
+    color: white;
+}
+
+p {
+    color: red;
+}
+
+/* Este tipo de selector es el que mas se usa */
+.parrafo-destacado {
+    color: green;
+}
+
+#titulo-unico {
+    font-size: 50px; /* Tamaño de la fuente */
+    text-align: center; /* Alinear el texto */
+}
+
+/* 
+    Colores
+    Tenemos distintos formatos
+        nombre en ingles (140)
+        hexadecimal (3 o 6 digitos o versiones nuevas 8 digitos)
+        rgb -> red, green, blue (3 parametros o 4 parametros para rgba)
+        hsl
+
+    Cuales son las propiedades en css para poder aplicar un formato de color
+
+        color: aplican un color solido al texto
+        background-color: aplican un color solido de fondo
+*/
+
+.colores {
+    background-color: navy;
+    color: navajowhite;
+}
+
+
+.color-especial {
+    color: greenyellow;
+}
+
+.titulo {
+    text-align: right;
+}
+
+.gradiente {
+    background-image: linear-gradient(to right, #093028, #237a57);
+}
