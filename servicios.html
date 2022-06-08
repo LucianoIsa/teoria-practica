@@ -29,20 +29,61 @@
 
     <main class="main">
         <!-- Dinamico porque aca vamos a ir generando o colocando las secciones de contenido de esta pagina -->
-        <section>
-            <h2>Seccion 1 en Pagina 2...</h2>
+        <section class="servicios1">
+            <h2 class="servicios1__titulo">Categoria - Rock</h2>
+            <div class="servicios1__padre">
+
+                <div class="servicios1__hijo servicios1__hijo--1">
+                    <h3>Like a Stone</h3>
+                    <img class="servicios1__img" src="imagenes/category-1.jpg" alt="categoria 1" width="100" height="100">
+                </div>
+                <div class="servicios1__hijo servicios1__hijo--2">
+                    <h3>Persiana Americana</h3>
+                    <img class="servicios1__img" src="imagenes/category-2.png" alt="categoria 2" width="100" height="100">
+                </div>
+                <div class="servicios1__hijo servicios1__hijo--3">
+                    <h3>Potrero Digital</h3>
+                    <img class="servicios1__img" src="imagenes/category-3.jpg" alt="categoria 3"  width="100" height="100">
+                </div>
+
+            </div>
+
+            <h2 class="servicios1__titulo">Categoria - Pop</h2>
+            <div class="servicios1__padre">
+
+                <div class="servicios1__hijo servicios1__hijo--1">
+                    <h3>Beat It</h3>
+                    <img class="servicios1__img" src="imagenes/category-1.jpg" alt="categoria 1" width="100" height="100">
+                </div>
+                <div class="servicios1__hijo servicios1__hijo--2">
+                    <h3>Pop 2</h3>
+                    <img class="servicios1__img" src="imagenes/category-2.png" alt="categoria 2" width="100" height="100">
+                </div>
+                <div class="servicios1__hijo servicios1__hijo--3">
+                    <h3>Pop 3</h3>
+                    <img class="servicios1__img" src="imagenes/category-3.jpg" alt="categoria 3"  width="100" height="100">
+                </div>
+
+            </div>
         </section>
     </main>
 
-    <footer>
-        <img src="imagenes/logotipo-negro.svg" alt="Logotipo" width="100" height="32">
-        <ul>
-            <li><a href="">Enlace 1</a></li>
-            <li><a href="">Enlace 2</a></li>
-            <li><a href="">Enlace 3</a></li>
-        </ul>
-        <p>Argentina 2022 - Spotify </p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe corrupti autem beatae assumenda non nostrum fugit nam sapiente eaque veritatis.</p>
+    <footer class="footer">
+        <div class="footer__flex">
+            <img src="imagenes/logotipo-blanco.svg" alt="Logotipo" width="100" height="32">
+            <ul class="footer__lista">
+                <li class="footer__item">
+                    <a class="footer__enlace" href="">Enlace 1</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__enlace" href="">Enlace 2</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__enlace" href="">Enlace 3</a>
+                </li>
+            </ul>
+        </div>
+        <p>Argentina © 2022 Spotify </p>
     </footer>
 </body>
 </html>
