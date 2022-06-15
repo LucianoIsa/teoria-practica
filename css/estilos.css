@@ -251,3 +251,111 @@ a {
 .servicios1__hijo--3 {
     background-color: #863b97;
 }
+
+
+/* Vamos a crear una media query para aplicar estilos necesarios o cambios necesario para la vistas pequeñas */
+/* Tablet */
+@media (max-width: 1023px) {
+    /* Estilos a aplicar... */
+    .inicio1 {
+        background-color: navy;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inicio1__textos {
+        margin-bottom: 20px;
+    }
+
+    .inicio1__picture {
+        width: 100%;
+    }
+
+    .inicio1__picture img {
+        object-position: top center;
+    }
+
+    img, iframe, video {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .header img {
+        width: 100px;
+        object-fit: unset;
+    }
+
+    .inicio2 {
+        color: #fff;
+    }
+
+    .footer__logo {
+        width: 100px;
+    }
+}
+
+/* Movil */
+@media (max-width: 600px) {
+    /* Estilos a aplicar... */
+    .inicio1 {
+        background-color: pink;
+        padding: 4rem 1rem;
+    }
+
+    .inicio1__textos, .inicio1__picture {
+        width: 100%;
+    }
+
+    img, iframe, video {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .inicio1__titulo {
+        font-size: 2rem;
+    }
+
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header img {
+        height: 32px;
+        width: auto;
+    }
+
+    .nav__lista {
+        gap: 10px;
+    }
+
+    .nav__item {
+        margin-left: 0;
+    }
+
+    .inicio2 {
+        padding: 6rem 1rem;
+    }
+
+    .inicio2__titulo {
+        font-size: 2rem;
+    }
+
+    .footer__lista {
+        flex-direction: column;
+    }
+
+    .servicios1__titulo {
+        font-size: 28px;
+    }
+
+    .servicios1__padre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicios1__img {
+        width: 100px;
+        height: 100px;
+    }
+}
