@@ -21,6 +21,11 @@ a {
     color: inherit;
 }
 
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 .inicio1 {
     background-color: rgb(168, 38, 168);
     color: #ffffff;
@@ -252,6 +257,38 @@ a {
     background-color: #863b97;
 }
 
+/* Carousel de bootstrap */
+/* Altura de la imagenes */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+.contacto1, .contacto2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card {
+    background-color: navy;
+    color: white;
+    position: relative;
+}
+
+.card__icon {
+    background-color: white;
+    color: red;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
 
 /* Vamos a crear una media query para aplicar estilos necesarios o cambios necesario para la vistas pequeñas */
 /* Tablet */
@@ -357,5 +394,9 @@ a {
     .servicios1__img {
         width: 100px;
         height: 100px;
+    }
+
+    .card {
+        margin-bottom: 2rem;
     }
 }
